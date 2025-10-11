@@ -154,7 +154,7 @@ npm run preview # Preview production build
 ### Environment Variables (.env)
 ```bash
 PORT=8080                    # Server port
-DB_TYPE=sqlite              # Database type
+DB_TYPE=postgresql              # Database type
 DB_PATH=./data/codexray.db  # SQLite database path
 JWT_SECRET=your-secret-key  # JWT signing secret
 CPU_THRESHOLD=80.0          # CPU alert threshold (%)
