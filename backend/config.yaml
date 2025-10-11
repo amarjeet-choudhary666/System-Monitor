@@ -1,0 +1,25 @@
+# CodeXray Observability Service Configuration
+
+server:
+  port: "8080"
+  host: "localhost"
+  read_timeout: "10s"
+  write_timeout: "10s"
+
+database:
+  type: "postgres"
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "password"
+  dbname: "codexray"
+  sslmode: "disable"
+
+auth:
+  jwt_secret: "your-super-secret-jwt-key-change-in-production"
+  session_duration: "24h"
+
+metrics:
+  collection_interval: "30s"
+  cpu_threshold: 80.0
+  memory_threshold: 75.0

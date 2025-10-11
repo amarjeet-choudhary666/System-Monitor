@@ -1,0 +1,20 @@
+2024-01-15 10:30:15 [INFO] Application started successfully
+2024-01-15 10:30:16 [INFO] Database connection established
+2024-01-15 10:30:17 [INFO] Server listening on port 8080
+2024-01-15 10:31:22 [WARN] High memory usage detected: 78%
+2024-01-15 10:32:45 [ERROR] Failed to connect to external API: connection timeout
+2024-01-15 10:33:12 [INFO] Processing user request: GET /api/metrics
+2024-01-15 10:33:15 [ERROR] Database query failed: table 'users' doesn't exist
+2024-01-15 10:34:01 [INFO] User authentication successful
+2024-01-15 10:34:23 [WARN] CPU usage above threshold: 85%
+2024-01-15 10:35:11 [ERROR] Failed to send notification email
+2024-01-15 10:35:45 [INFO] Metrics collection completed
+2024-01-15 10:36:12 [ERROR] Failed to connect to external API: connection timeout
+2024-01-15 10:37:33 [WARN] Disk space running low: 92% used
+2024-01-15 10:38:21 [ERROR] Database query failed: table 'users' doesn't exist
+2024-01-15 10:39:15 [INFO] Background job completed successfully
+2024-01-15 10:40:22 [ERROR] Authentication failed for user: invalid credentials
+2024-01-15 10:41:11 [INFO] Cache cleared successfully
+2024-01-15 10:42:33 [WARN] Response time exceeded threshold: 2.5s
+2024-01-15 10:43:45 [ERROR] Failed to connect to external API: connection timeout
+2024-01-15 10:44:12 [INFO] System health check passed
