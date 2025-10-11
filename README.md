@@ -10,7 +10,7 @@ This project implements a complete observability solution with the following cap
 - **Log Analysis**: Parse and analyze log files with error frequency tracking
 - **Secure Authentication**: bcrypt password hashing and session management
 - **REST API**: Comprehensive API for all observability data
-- **SQLite Database**: Lightweight, embedded database for data persistence
+- **Postgresql Database**: Lightweight, embedded database for data persistence
 
 ## 📁 Project Structure
 
