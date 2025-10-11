@@ -169,7 +169,7 @@ server:
   write_timeout: "10s"
 
 database:
-  type: "sqlite"
+  type: "postgresql"
   path: "./data/codexray.db"
 
 metrics:
